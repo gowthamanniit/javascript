@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var ans,un;
+	function fun1()
+	{
+		ans=kk.t1.value;
+
+		document.write("This is display text "+ans);
+		document.write("<br>This is display text "+ans);
+		document.write("<br><font color='green'> This is display text "+ans+"</font>");		
+		//alert("This is display text "+ans);
+	}
+
+	function fun2()
+	{
+		un=prompt("Enter Your Name:","default value");
+		document.write("<br><font color='green'> Name display text "+un+"</font>");					
+	}
+	function fun3()
+	{
+		//ans=document.getElementById("t3").value;
+		//document.getElementById("t3").value="gowthaman";
+		//document.write("<br><font color='green'> Name display text "+ans+"</font>");					
+	}
+	</script>
+</head>
+<body>
+	<form name="kk">
+	<h1> JAVASCRIPT read values from textbox and PRINT </h1>
+	<input type="text" name="t1" maxlength="20"></input>
+	<input type="button"  name="b1" value="clickme" onclick="fun1()"></input>
+	<h1> JAVASCRIPT read values from prompt and PRINT </h1>
+	<br><br>
+	<input type="button"  name="b2" value="clickme" onclick="fun2()"></input>
+	<h1> JAVASCRIPT read values from textbox and PRINT </h1>
+	<input type="text" id="t3" maxlength="20"></input>
+	<input type="button"  name="b1" value="clickme" onclick="fun3()"></input>
+	</form>
+</body>
+</html>
