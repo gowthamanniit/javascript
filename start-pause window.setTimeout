@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var k =0;
+		var col;
+		var flag=0
+		function mytime()
+		{
+			
+			window.setTimeout(fun1,1000,"javascript");
+		}
+		function fun1()
+				{					
+					col=new Array("1.jpeg","2.jpg","3.jpg","4.jpg","5.jpg");
+					document.getElementById("myimage").src=col[k];
+					document.getElementById("mytext").innerHTML=col[k];
+					if(flag==0)
+					{
+					k=k+1;
+					if(k>4)
+					k=0;
+				    }
+					window.setTimeout(fun1,500,"javascript");
+				}
+		function fun2()
+		{
+			if(flag==1)
+				flag=0;
+			else
+				flag=1;
+		}
+	</script>
+</head>
+<body onload="fun1()">
+	<form name="a">
+		<h1><center> Image Slide Show </center></h1>		
+		
+		<input type="button" value="start/pasuse" onclick="fun2()"></input>
+		
+		<br>
+		<center>
+			<img id="myimage" src="1.jpeg" width="auto" height="300"></img>
+			<br>
+			<span id="mytext">1.jpeg </span>
+		</center>
+	</form>
+	<span id="sid"></span>
+</body>
+</html>
