@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript">
+function fun1()
+{
+var a=confirm("are you sure to delete?");
+//alert(a);
+if(a==true)
+{
+f1.b1.style.visibility="hidden";
+document.getElementById("b2").style.visibility="hidden";
+}
+}
+</script>
+</head>
+<body>
+<form name="f1">
+<h1  id="b2">  javascript confirm window</h1>
+<input type="button"   name="b1" value="clickme" onclick="fun1()"></input>
+</form>
+</body>
+</html>
