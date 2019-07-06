@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var n1,n2,ch,res;
+		function fun1()
+		{
+			n1=document.getElementById("m1").value;
+			n2=document.getElementById("m2").value;
+			ch=document.getElementById("m3").value;
+
+			switch(ch)
+			{
+				case "1":
+					res=parseInt(n1)+parseInt(n2);					
+					break;
+				case "2":
+					res=n1-n2;
+					break;
+				case "3":
+					res=n1*n2;
+					break;
+				case "4":
+					res=n1/n2;
+					break;
+				default:
+				    res="Enter correct choice";
+			}
+
+		document.getElementById("deva").innerHTML=res;
+		}
+
+	</script>
+</head>
+<body>
+	<form>
+		<input id="m1" type="number" placeholder="enter number one"><br>
+		<input id="m2" type="number" placeholder="enter number two"><br>
+
+		
+
+		<input id="m3" type="number" placeholder="Enter choice 1. + 2. -  3 * 4./"><br><br>
+		<input type="button" name="b1"  value="clickme" onclick="fun1()"><br>
+		<br><br><br><br><br>
+		<span id="deva"></span>  
+	</form>
+</body>
+</html>
