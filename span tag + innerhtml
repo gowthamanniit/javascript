@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var mark,res="";
+		function fun1()
+		{
+			mark=document.getElementById("m1").value;
+			if(mark>=75)
+			res="very good";
+			else if(mark>=65)
+			res="very excellent";	
+			else if(mark>=50)
+			res="very super";	
+			else
+			res="very bad";				
+
+		document.getElementById("deva").innerHTML=res;
+		}
+
+	</script>
+</head>
+<body>
+	<form>
+		<input id="m1" type="number" placeholder="enter avg:">
+		<input type="button" name="b1"  value="clickme" onclick="fun1()">
+
+		<br><br><br><br><br>
+		<span id="deva"></span>
+	</form>
+</body>
+</html>
