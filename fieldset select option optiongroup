@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<HTML>
+<BODY>
+<FORM>
+<FIELDSET>
+Drinks:
+<SELECT>
+   <OPTION value="opt1">Select Your Drink</OPTION>
+<OPTION value="opt2">Cappuccino</OPTION>
+<OPTION value="opt3">Caffelatte</OPTION>
+</SELECT>
+Soups:
+<SELECT> 
+<OPTION value="opt4">Select the Soup of Your Choice</OPTION>
+<OPTION value="opt5">Minestrone</OPTION>
+   <OPTION value="opt6">Fonduta</OPTION> 
+<OPTION value="opt7">Pasta e fagioli</OPTION>
+</SELECT>
+Dishes:
+<SELECT>
+<OPTION value="opt8">Select the Dishes of Your Choice.</OPTION>  
+<OPTGROUP label="Italian">
+<OPTION value="opt9">Pasta</OPTION>
+   <OPTION value="opt10">Fish</OPTION> 
+<OPTION value="opt11">Rice</OPTION>
+</OPTGROUP>
+<OPTGROUP label="Chinese">
+<OPTION value="opt12">Chowmin</OPTION>
+    <OPTION value="opt13">Manchurian</OPTION> 
+<OPTION value="opt14">Water Chessnut Cake</OPTION>
+</OPTGROUP>
+</SELECT>
+</FIELDSET>
+</FORM>
+</BODY>
+</HTML>
