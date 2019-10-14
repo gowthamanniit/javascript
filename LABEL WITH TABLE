@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<STYLE>
+body{
+background-color:#FFEBCD;
+}.autostyle2{
+color:red;
+font-size:20px;
+text-align:center;
+}
+</STYLE>
+</HEAD>
+<BODY>
+   <FORM action = "registeration.html">
+<TABLE>
+<TR class="autostyle2"> 
+<TD colspan="2">OrderFoodOnline</TD></TR>
+<TR>
+<TD WIDTH="100%" COLSPAN="2">
+</TD>
+</TR>
+<TR>
+<TD><LABEL for="name">Name:</LABEL></TD>
+<TD><INPUT type="text" name="usrname" ID="name" placeholder="Enter your  
+name" required></TD>
+</TR>
+<TR> 
+<TD><LABEL for="date">Date:</LABEL></TD>
+<TD><INPUT type="date" name="date" ID="date" required></TD>
+</TR>
+<TR>
+<TD><LABEL for="email">email ID:</LABEL></TD>
+<TD><INPUT type="email" name="usrmail" ID="email" placeholder="Enter your email ID" required></TD>
+</TR>
+<TR>
+<TD><LABEL for="number">Contact Number:</LABEL></TD>
+<TD><INPUT type="tel" name="usrtel" ID="number" placeholder="Enter your phone number" required></TD></TR>
+<TR><TD><LABEL for="food">Select Food:</LABEL></TD>
+<TD><LABEL for="nonveg">Non-vegetarian</LABEL>
+<INPUT type="radio" name="food" ID="nonveg">
+<LABEL for="veg">Vegetarian</LABEL>
+<INPUT type="radio" name="food" ID="veg"></TD>
+</TR>
+<TR>
+<TD><LABEL for="restro">Select Restaurant:</LABEL></TD>
+<TD><SELECT>
+	<OPTION value="opt1">Select Your Restaurants</OPTION>
+    <OPTION value="opt2">La Figa</OPTION>
+    <OPTION value="opt3">Benihana</OPTION>
+	    <OPTION value="opt4">Gallipoli</OPTION>
+	    <OPTION value="opt5">Kings Road  
+SteakHouse</OPTION>
+</SELECT></TD>
+</TR>
+<TR>
+<TD><LABEL for="drinks">Drinks:</LABEL></TD>
+<TD><SELECT>
+	<OPTION value="opt6">Select Your Drink</OPTION>
+    <OPTION value="opt7">Cappuccino</OPTION>
+    <OPTION value="opt8">Caffelatte</OPTION>
+</SELECT></TD>
+</TR>
+<TR>
+<TD><LABEL for="soups">Soups:</LABEL></TD>
+<TD><SELECT> 
+ <OPTION value="opt9">Select the Soup of Your Choice</OPTION>
+    <OPTION value="opt10">Minestrone</OPTION>
+	    <OPTION value="opt11">Fonduta</OPTION> 
+   <OPTION value="opt12">Pasta e fagioli</OPTION>
+</SELECT></TD>
+</TR>
+<TR>
+<TD><LABEL for="dishes">Dishes:</LABEL></TD>
+<TD><SELECT>
+<OPTION value="opt13">Select the Dishes of Your Choice</OPTION>
+<OPTGROUP label="Italian">
+    <OPTION value="opt14">Pasta</OPTION>
+    <OPTION value="opt15">Fish</OPTION> 
+   <OPTION value="opt16">Rice</OPTION>
+  </OPTGROUP>
+<OPTGROUP label="Chinese">
+    <OPTION value="opt17">Chowmin</OPTION>
+	    <OPTION value="opt18">Manchurian</OPTION> 
+   <OPTION value="opt19">Water Chessnut Cake</OPTION>
+  </OPTGROUP>
+</SELECT></TD>
+</TR>
+<TR>
+<TD><LABEL for="Order For:">Order For:</LABEL></TD>
+
+<TD><LABEL for="pickup">Take Away</LABEL>
+<INPUT type="radio" name="pickup" ID="pickup">
+<LABEL for="home">Home Delivery</LABEL>
+<INPUT type="radio" name="pickup" ID="home"></TD>
+</TR>
+</TABLE>
+</FORM>
+</BODY>
+</HTML>
