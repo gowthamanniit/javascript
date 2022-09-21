@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+
+		var k={
+				rno:1,
+				sname:"gowthaman",
+				mark:[99,88,97],
+				grade:[{gra1:'super'},{gra2:'excellent'}]
+		};
+		document.write("<br> Roll number  :"+k.rno);
+		document.write("<br> Student Name :"+k.sname);
+		document.write("<br> all Marks   :"+k["mark"]);
+		document.write("<br> all Marks   :"+k.mark);
+
+		document.write("<br> tamil      :"+k.mark[0]);
+		document.write("<br> english      :"+k.mark[1]);
+		document.write("<br> maths        :"+k.mark[2]);
+
+		document.write("<br> tamil      :"+k["mark"][0]);
+		document.write("<br> englih     :"+k["mark"][1]);
+		document.write("<br> maths      :"+k["mark"][2]);
+
+		document.write("<br> Grade 1    :"+k.grade[0]["gra1"]);
+		document.write("<br> Grade 2    :"+k.grade[1].gra2);
+
+
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>
